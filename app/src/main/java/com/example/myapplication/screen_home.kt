@@ -38,6 +38,7 @@ class screen_home : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
         setcontrol()
         chuyenmh()
         click_checkin()
@@ -48,7 +49,9 @@ class screen_home : AppCompatActivity() {
 //        setSpinner(spinnerT)
 
     }
+    fun top_sp(){
 
+    }
     fun chuyen_top(){
         btn_order_room.setOnClickListener {
             sc_order_room.visibility = View.VISIBLE
@@ -69,6 +72,7 @@ class screen_home : AppCompatActivity() {
         btn_order_room = findViewById(R.id.btn_order_room)
         sc_top_room  = findViewById(R.id.sc_top_room)
         sc_order_room = findViewById(R.id.sc_order_room)
+
     }
 
     fun chuyenmh(){
@@ -111,7 +115,6 @@ class screen_home : AppCompatActivity() {
         val i = Intent(this, ac)
         startActivity(i)
     }
-
     fun showDialog(){
         val dialogView = LayoutInflater.from(this).inflate(R.layout.custom_dialog_checkin,null)
 

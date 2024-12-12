@@ -149,48 +149,5 @@
         </LinearLayout>
     </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/linearLayout8"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="48dp"
-        android:gravity="center"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
 
-        <Button
-            android:id="@+id/btn_statictisc"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:layout_marginEnd="20dp"
-            android:background="@drawable/icon_staticsis"
-            app:backgroundTint="@null" />
-
-        <Button
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:layout_marginEnd="20dp"
-            android:background="@drawable/icon_home"
-            app:backgroundTint="@null" />
-
-        <Button
-            android:id="@+id/btn_contact"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:layout_marginEnd="20dp"
-            android:background="@drawable/icon_phone"
-            app:backgroundTint="@null" />
-
-        <Button
-            android:id="@+id/btn_profile"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:layout_marginEnd="20dp"
-            android:background="@drawable/icon_profile"
-            app:backgroundTint="@null" />
-
-
-    </LinearLayout>
 </LinearLayout>
